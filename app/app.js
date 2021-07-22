@@ -12,6 +12,10 @@ document.querySelector(".one").addEventListener('click', (ev)=>{
 
 //part four write a function that takes a name argument and returns a paragraph element
 //with the text "hello <name>" use template literals
+function nameFunc(name){
+	const html = `<p>hello ${name}</p>`
+	return html
+}
 
 //part five write a function that will get the text value from the text input
 
