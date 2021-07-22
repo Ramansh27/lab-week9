@@ -6,6 +6,9 @@
 //part three create a single event listener 
 //that will log to console the text value of any div that is clicked on inside div .one
 //for example clicking on three will log "three" to the console
+document.querySelector(".one").addEventListener('click', (ev)=>{
+    console.log(ev)
+})
 
 //part four write a function that takes a name argument and returns a paragraph element
 //with the text "hello <name>" use template literals
