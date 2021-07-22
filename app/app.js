@@ -18,6 +18,10 @@ function nameFunc(name){
 }
 
 //part five write a function that will get the text value from the text input
+function getName(){
+	const name = document.querySelector("#get-name")
+	return name.value
+}
 
 //part six write an event handler that will use the two functions created above to insert
 //a new paragraph at the end of div .two when the button is clicked.
